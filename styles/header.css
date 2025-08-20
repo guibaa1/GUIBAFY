@@ -1,0 +1,46 @@
+.icone-spotify {
+  width: 50px;
+  height: auto;
+}
+
+.btn-home {
+    background-color:#282828;
+    width: auto;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+
+}
+
+.icone-home{
+    width: 24px;
+    height: auto;
+}
+
+.icone-search{
+    width: 24px;
+    height: auto;
+}
+
+.icone-disco{
+    width: 24px;
+    height: auto;
+}
+
+.icone-notification{
+    width: 24px;
+    height: auto;
+}
+
+.icone-group{
+    width: 24px;
+    height: auto;
+}
+
+.foto-user{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center top;
+}
