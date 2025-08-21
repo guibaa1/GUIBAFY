@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="./styles/header.css" />
   </head>
   <body>
-    <header>
-      <div>
+    <header class="container-header">
+      <div class="spotify-icon-container">
         <a href="#">
           <img
             src="./assets/icone-spotify.svg"
@@ -20,29 +20,33 @@
         </a>
       </div>
 
-      <div>
+      <div class="search-container">
         <button class="btn-home">
           <img src="./assets/icone-home.svg" alt="home" class="icone-home" />
         </button>
-        <div>
+        <div class="input-container">
           <img
             src="./assets/icone-search.svg"
             alt="search"
             class="icone-search"
           />
-          <input type="text" placeholder="O que você quer ouvir?" />
-          <img
+          <input type="text" placeholder="O que você quer ouvir?" class="texto-busca" />
+          <div class="icon-disc-container">
+            <img
             src="./assets/icone-disco.svg"
             alt="icone-disco"
             class="icone-disco"
-          />
+          /></div>
+          
         </div>
       </div>
 
-      <div>
+      <div class="notification-group-user-container">
         <img src="./assets/icone-notification.svg" alt="notification" class="icone-notification">
         <img src="./assets/icone-group.svg" alt="group" class="icone-group">
-        <img src="./assets/foto-user.jpg" alt="user" class="foto-user">
+        <div class="foto-user-container">
+           <img src="./assets/foto-user.jpg" alt="user" class="foto-user">
+        </div>
       </div>
     </header>
   </body>
